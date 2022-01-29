@@ -1,0 +1,12 @@
+.btnRecipes{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnRecipes button{
+    margin: 0 8px;
+}
+

@@ -1,0 +1,29 @@
+.loginImg{
+    position: relative;
+    min-width: 60%;
+    max-width: 60%;
+    min-height: 100vh;
+}
+
+.imgLogin{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+
+@media all and (max-width:900px){
+    .loginImg{
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        max-width: 100%;
+        min-height: 100vh;
+    } 
+
+    .imgLogin{
+        opacity: 0.7;
+    }
+}

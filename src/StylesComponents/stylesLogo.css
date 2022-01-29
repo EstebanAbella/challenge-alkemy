@@ -1,0 +1,20 @@
+.logo h2{
+    color: #fff;
+    font-weight: 200;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.logo span{
+    font-size: 25px;
+}
+
+.logo img{
+    margin: -10px 0 0 10px;
+    width: 45px;
+    height: 45px;
+}
+
+.logo a{
+    text-decoration: none;
+}

@@ -1,0 +1,23 @@
+.detailsCart{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.cardDetails{
+    width: 100%;
+}
+
+.cardHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media all and (max-width: 880px){
+    .detailsCart{
+        padding: 20px 20px;
+    }
+}
