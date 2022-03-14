@@ -1,3 +1,50 @@
+Aplicación para restaurante responsive
+
+Al ingresar a la app pide email y contraseña, ambos campos obligatorios, en caso de poner datos incorrectos, muestra un alerta con los siguientes datos para acceder:
+
+Email: challenge@alkemy.org
+Password: react
+
+Se guarda Token en el localstorege
+
+Redirige a la "Home" en donde se visualizan todas las recetas disponibles.
+Se puede seleccionar hasta cuatro recetas, dos deben ser veganas.
+Se puede remover recetas seleccionadas
+En opción detalle se puede visualizar:
+-. El precio acumulado de las recetas
+-. Tiempo total en que estaran preparadas dichas recetas
+-. Health score total
+
+En "Menus":
+-. Se observan todas las recetas seleccionadas
+-. Posibilidad de remover recetas seleccionadas
+-. Muestra el detalle del total de las recetas seleccionadas
+
+Buscador para encontrar facilmente alguna receta
+-.Responde por ejemplo a "diet", "homemade", "cauliflower" 
+
+Cierre de sesion eliminando Token del localstorage
+
+
+Dependencias:
+.Axios
+.Redux
+.React bootstrap
+.Sweet alert 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
