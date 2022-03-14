@@ -1,6 +1,6 @@
 Aplicación para restaurante responsive
 
-Al ingresar a la app pide email y contraseña, ambos campos obligatorios, en caso de poner datos incorrectos, muestra un alerta con los siguientes datos para acceder:
+Al ingresar a la app pide email y contraseña, ambos campos obligatorios. En caso de poner datos incorrectos, muestra un alerta con los siguientes datos para acceder:
 
 Email: challenge@alkemy.org
 Password: react
@@ -20,7 +20,7 @@ En "Menus":
 -. Posibilidad de remover recetas seleccionadas
 -. Muestra el detalle del total de las recetas seleccionadas
 
-Buscador para encontrar facilmente alguna receta
+Buscador para encontrar facilmente recetas
 -.Responde por ejemplo a "diet", "homemade", "cauliflower" 
 
 Cierre de sesion eliminando Token del localstorage
@@ -32,14 +32,7 @@ Dependencias:
 .React bootstrap
 .Sweet alert 2
 
-
-
-
-
-
-
-
-
+La Api permite hasta 100 consultas diarias.
 
 
 
